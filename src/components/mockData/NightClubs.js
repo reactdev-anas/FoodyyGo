@@ -1,28 +1,29 @@
-import bassline from '../images/ImagesOfNightClubs/Bassline_Basement.jpg'
-import echo from '../images/ImagesOfNightClubs/Echo_Chamber.jpg' 
-import echo_live from '../images/ImagesOfNightClubs/Echo_Live.jpg'
-import glow from '../images/ImagesOfNightClubs/Glow_Affair.jpg'
-import live_music from '../images/ImagesOfNightClubs/live_music_club.jpg'
-import lounge_88 from '../images/ImagesOfNightClubs/Lounge_8.jpg'
-import moonlight from '../images/ImagesOfNightClubs/Moonlight_Manor.jpg'
-import neon from '../images/ImagesOfNightClubs/neon_club.jpg'
-import rythum from '../images/ImagesOfNightClubs/Rhythm_Roots.jpg'
-import sky_high from '../images/ImagesOfNightClubs/Sky_High_Lounge.jpg'
-import sky_loft from '../images/ImagesOfNightClubs/Sky_Loft_Beats.jpg'
-import skyline from '../images/ImagesOfNightClubs/Skyline_Soire.jpg'
-import the_vault from '../images/ImagesOfNightClubs/The_Vault_Lounge.jpg'
-import vinyl from '../images/ImagesOfNightClubs/Vinyl_Vibe.jpg'
-import under_stars from '../images/ImagesOfNightClubs/Under_the_Stars.jpg'
-import rythmic from '../images/ImagesOfNightClubs/Rhythmic_Retreat.jpg'
-import boomBox from  '../images/ImagesOfNightClubs/BoomBox_Basement.jpg'
-import harmony from '../images/ImagesOfNightClubs/harmony_hub.jpg'
-import luxe from '../images/ImagesOfNightClubs/Luxe_Underground.jpg'
-import beat from '../images/ImagesOfNightClubs/Beat_Street.jpg'
-import breezy from '../images/ImagesOfNightClubs/Breezy_Beats.jpg'
-import serene from '../images/ImagesOfNightClubs/Serene_Beats.jpg'
-import indigo from '../images/ImagesOfNightClubs/Indigo_Groove.jpg'
-import twilight from '../images/ImagesOfNightClubs/Twilight_Tavern.jpg'
-import elcetric from '../images/ImagesOfNightClubs/Electric_Echoes.jpg'
+import bassline from '../images/images-of-night-clubs/bassline-basement.jpg';
+import echo from '../images/images-of-night-clubs/echo-chamber.jpg';
+import echoLive from '../images/images-of-night-clubs/echo-live.jpg';
+import glow from '../images/images-of-night-clubs/glow-affair.jpg';
+import liveMusic from '../images/images-of-night-clubs/live-music-club.jpg';
+import lounge88 from '../images/images-of-night-clubs/lounge-8.jpg';
+import moonlight from '../images/images-of-night-clubs/moonlight-manor.jpg';
+import neon from '../images/images-of-night-clubs/neon-club.jpg';
+import rhythm from '../images/images-of-night-clubs/rhythm-roots.jpg';
+import skyHigh from '../images/images-of-night-clubs/sky-high-lounge.jpg';
+import skyLoft from '../images/images-of-night-clubs/sky-loft-beats.jpg';
+import skyline from '../images/images-of-night-clubs/skyline-soire.jpg';
+import theVault from '../images/images-of-night-clubs/the-vault-lounge.jpg';
+import vinyl from '../images/images-of-night-clubs/vinyl-vibe.jpg';
+import underStars from '../images/images-of-night-clubs/under-the-stars.jpg';
+import rhythmic from '../images/images-of-night-clubs/rhythmic-retreat.jpg';
+import boomBox from '../images/images-of-night-clubs/boombox-basement.jpg';
+import harmony from '../images/images-of-night-clubs/harmony-hub.jpg';
+import luxe from '../images/images-of-night-clubs/luxe-underground.jpg';
+import beat from '../images/images-of-night-clubs/beat-street.jpg';
+import breezy from '../images/images-of-night-clubs/breezy-beats.jpg';
+import serene from '../images/images-of-night-clubs/serene-beats.jpg';
+import indigo from '../images/images-of-night-clubs/indigo-groove.jpg';
+import twilight from '../images/images-of-night-clubs/twilight-tavern.jpg';
+import electric from '../images/images-of-night-clubs/electric-echoes.jpg';
+
 const nightClubs=
 [
   {
@@ -78,7 +79,7 @@ const nightClubs=
     "average_cost_for_two": 3500,
     "highlights": ["Live jazz", "Craft cocktails", "Ambient lighting"],
     "contact": "www.vaultlounge.in",
-    "image": the_vault,
+    "image": theVault,
      "isOpen": false,
       "reviews": [
     { "user": "Tanvi", "comment": "Soothing jazz nights!", "rating": 5 },
@@ -99,7 +100,7 @@ const nightClubs=
     "average_cost_for_two": 2000,
     "highlights": ["Live rock", "Local bands", "Draft beer"],
     "contact": "+91-9012345678",
-    "image": live_music,
+    "image": liveMusic,
      "isOpen": true,
      "reviews": [
     { "user": "Arjun", "comment": "Rock scene is alive here!", "rating": 5 },
@@ -183,7 +184,7 @@ const nightClubs=
     "average_cost_for_two": 2400,
     "highlights": ["Live indie", "Acoustic sets", "Good vibes"],
     "contact": "+91-9950011223",
-    "image": rythum,
+    "image": rhythm,
       "isOpen": true,
        "reviews": [
     { "user": "Meera", "comment": "Felt like a cozy indie concert.", "rating": 5 },
@@ -204,7 +205,7 @@ const nightClubs=
     "average_cost_for_two": 3200,
     "highlights": ["Rooftop view", "Hip-hop DJs", "Cocktails"],
     "contact": "+91-9887766554",
-    "image": sky_loft,
+    "image": skyLoft,
       "isOpen": true,
        "reviews": [
     { "user": "Rehan", "comment": "Unbeatable rooftop vibe!", "rating": 5 },
@@ -246,7 +247,7 @@ const nightClubs=
     "average_cost_for_two": 3300,
     "highlights": ["Signature cocktails", "Soft music", "VIP seating"],
     "contact": "info@lounge88.in",
-    "image": lounge_88,
+    "image": lounge88,
       "isOpen": false,
       "reviews": [
     { "user": "Neha", "comment": "Classy interiors and great drinks!", "rating": 5 },
@@ -288,7 +289,7 @@ const nightClubs=
     "average_cost_for_two": 2900,
     "highlights": ["Lounge music", "Rooftop", "Stylish ambiance"],
     "contact": "+91-9445566778",
-    "image": sky_high,
+    "image": skyHigh,
     "isOpen": false,
     "reviews": [
     { "user": "Kriti", "comment": "Rooftop view was amazing!", "rating": 5 },
@@ -309,7 +310,7 @@ const nightClubs=
     "average_cost_for_two": 2800,
     "highlights": ["Jazz nights", "Live blues", "Cozy vibe"],
     "contact": "www.echolive.in",
-    "image": echo_live,
+    "image": echoLive,
     "isOpen": true,
      "reviews": [
     { "user": "Aanya", "comment": "Live jazz was 🔥", "rating": 5 },
@@ -330,7 +331,7 @@ const nightClubs=
     "average_cost_for_two": 2600,
     "highlights": ["Star-lit", "Chill tunes", "Cocktails"],
     "contact": "+91-9812233445",
-    "image": under_stars,
+    "image": underStars,
     "isOpen": true,
     "reviews": [
     { "user": "Pankaj", "comment": "Stunning night view!", "rating": 5 },
@@ -351,7 +352,7 @@ const nightClubs=
     "average_cost_for_two": 2100,
     "highlights": ["Lounge beats", "Intimate vibe", "Craft cocktails"],
     "contact": "+91-9123456780",
-    "image": rythmic,
+    "image":rhythmic,
     "isOpen": true,
     "reviews": [
     { "user": "Karan", "comment": "Very cozy and romantic atmosphere.", "rating": 5 },
@@ -519,7 +520,7 @@ const nightClubs=
     "average_cost_for_two": 2700,
     "highlights": ["Techno", "Psytrance", "Late-night"],
     "contact": "contact@electricechoes.in",
-    "image": elcetric,
+    "image": electric,
     "isOpen": true,
     "reviews": [
     { "user": "Raj", "comment": "Insane energy till 5 AM!", "rating": 5 },

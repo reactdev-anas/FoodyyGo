@@ -1,43 +1,44 @@
-import atrium_dining from '../images/Atrium_Dining.jpg'
-import Kormangala from '../images/Kormangala.jpg'
-import bandra_West from '../Images/Bandra_west.jpg'
-import bandra from '../images/bandra.avif'
-import caunaught from '../images/caunaught_palace.jpg'
-import chic_heaven from '../images/Chic_heaven.jpg'
-import dwarka from '../images/Dwarka.jpg'
-import green_lounge from '../images/Green_lounge.jpg'
-import hauz from '../images/Hauz_Khas.jpg'
-import indranagar from '../images/Indranagar.jpg'
-import jayanagar from '../images/Jayananagar.jpg'
-import juhu from '../images/juhu.jpg'
-import mg_road from '../images/Mg_road.jpg'
-import panaji from '../images/Panaji.jpg'
-import park_street from '../images/park_street.jpg'
-import retro_check from '../images/Retro_check.jpg'
-import salt_lake from '../images/Salt_Lake.jpg'
-import south_extension from '../images/South_Extension.jpg'
-import t_nagar from '../images/T_nagar.jpg'
-import vasant from '../images/vasant_bihar.jpg'
-import vile from '../images/Vile_Parle.jpg'
-import sector_14 from '../images/Sector_14.jpg'
-import red_wall_lounge from '../images/red_wall_lounge.jpg'
-import andheri_west from '../images/andheri_west.jpg'
-import banjara_hills from '../images/banjara_hills.jpg'
-import checkerd_cafe from '../images/Checkered_Cafe.jpg'
-import chandni_chowk from '../images/Chandni_Chowk.jpg'
-import anna_nagar from '../images/Anna_Nagar.jpg'
-import classic_wood from '../images/Classic_Wood.jpg'
-import garden_autrium from '../images/Garden_Atrium.jpg'
-import lofty_retreat from '../images/Lofty_Retreat.jpg'
-import rustic_glow_lounge from '../images/Rustic_Glow_Lounge.jpg'
-import red_retro_lounge from '../images/Red_Retro_Lounge.jpg'
-import terrace_lounge from '../images/Terrace_Lounge.jpg'
+import atriumDining from '../images/atrium-dining.jpg'
+import kormangala from '../images/kormangalaa.jpg'
+import bandraWest from '../images/bandra-west.jpg'
+import bandra from '../images/bandraa.avif'
+import caunaught from '../images/caunaught-palace.jpg'
+import chicHeaven from '../images/chic-heaven.jpg'
+import dwarka from '../images/dwarkaa.jpg'
+import greenLounge from '../images/green-lounge.jpg'
+import hauz from '../images/hauz-khas.jpg'
+import indranagar from '../images/indranagarr.jpg'
+import jayanagar from '../images/jayanagar.jpg'
+import juhu from '../images/juhuu.jpg'
+import mgRoad from '../images/mg-road.jpg'
+import panaji from '../images/panajii.jpg'
+import parkStreet from '../images/park-street.jpg'
+import retroCheck from '../images/retro-check.jpg'
+import saltLake from '../images/salt-lake.jpg'
+import southExtension from '../images/south-extension.jpg'
+import tNagar from '../images/t-nagar.jpg'
+import vasant from '../images/vasant-bihar.jpg'
+import vile from '../images/vile-parle.jpg'
+import sector14 from '../images/sector-14.jpg'
+import redWallLounge from '../images/red-wall-lounge.jpg'
+import andheriWest from '../images/andheri-west.jpg'
+import banjaraHills from '../images/banjara-hills.jpg'
+import checkeredCafe from '../images/checkered-cafe.jpg'
+import chandniChowk from '../images/chandni-chowk.jpg'
+import annaNagar from '../images/anna-nagar.jpg'
+import classicWood from '../images/classic-wood.jpg'
+import gardenAtrium from '../images/garden-atrium.jpg'
+import loftyRetreat from '../images/lofty-retreat.jpg'
+import rusticGlowLounge from '../images/rustic-glow-lounge.jpg'
+import redRetroLounge from '../images/red-retro-lounge.jpg'
+import terraceLounge from '../images/terrace-lounge.jpg'
+
 
 const diningData = [
   {
     "id": 1,
     "title": "Cozy Corner",
-    "image": Kormangala,
+    "image": kormangala,
     "description": "Nestled in the heart of Koramangala, The Cozy Corner offers a delightful escape from the bustling city life. As you walk in, you’re greeted by soft, ambient lighting and comfortable seating that invites you to relax and unwind. The restaurant is designed with plush cushions and warm tones, making it perfect for a romantic dinner or a casual outing with friends. The menu features a mix of classic and contemporary dishes, catering to a variety of tastes.",
     "rating": 4.2,
     "price": 700,
@@ -118,7 +119,7 @@ const diningData = [
   {
     "id": 4,
     "title": "Vintage Vault",
-    "image": mg_road,
+    "image": mgRoad,
     "description": "The Vintage Vault is a fine-dining experience with a retro twist. The moment you step inside, you are transported back in time, with bold red walls and an array of elegant antiques setting the tone for a classy yet nostalgic atmosphere. The restaurant's attention to detail is impressive, with every corner showcasing vintage décor that beautifully complements the high-end, sophisticated dining experience.",
     "rating": 4.7,
     "price": 1200,
@@ -226,7 +227,7 @@ const diningData = [
   {
     "id": 8,
     "title": "Green Nook",
-    "image": bandra_West,
+    "image": bandraWest,
     "description": "The Green Nook is a hidden gem in the heart of Bandra West, offering a serene escape amidst vibrant green accents and cozy corners. The eco-friendly design is at the forefront, with lush greenery and recycled materials used throughout the space. The restaurant’s laid-back atmosphere, paired with its warm yet vibrant décor, creates the perfect setting for small gatherings, whether it’s with friends, family, or colleagues.",
     "rating": 4.6,
     "price": 800,
@@ -307,7 +308,7 @@ const diningData = [
   {
     "id": 11,
     "title": "Urban Greenery",
-    "image": green_lounge,
+    "image": greenLounge,
     "description": "Indoor garden touches with leafy decoration and soft lighting.",
     "rating": 4.0,
     "price": 750,
@@ -388,7 +389,7 @@ const diningData = [
   {
     "id": 14,
     "title": "Chic Haven",
-    "image": chic_heaven,
+    "image": chicHeaven,
     "description": "Bold red interiors paired with modern furniture for chic vibes.",
     "rating": 4.6,
     "price": 950,
@@ -415,7 +416,7 @@ const diningData = [
   {
     "id": 15,
     "title": "Bright Atrium",
-    "image": atrium_dining,
+    "image": atriumDining,
     "description": "Open atrium-style seating with natural light and spacious layout.",
     "rating": 4.4,
     "price": 800,
@@ -442,7 +443,7 @@ const diningData = [
   {
     "id": 16,
     "title": "Elegant Corridor",
-    "image": park_street,
+    "image": parkStreet,
     "description": "Long corridor-style seating with luxurious accents.",
     "rating": 4.7,
     "price": 1300,
@@ -469,7 +470,7 @@ const diningData = [
   {
     "id": 17,
     "title": "Checkerboard Cafe",
-    "image": retro_check,
+    "image": retroCheck,
     "description": "Retro checkerboard floor with colorful modern seating.",
     "rating": 4.2,
     "price": 620,
@@ -496,7 +497,7 @@ const diningData = [
   {
     "id": 18,
     "title": "Warm Lounge",
-    "image": t_nagar,
+    "image":tNagar,
     "description": "Vibrant green walls and soft lounge seating for relaxed meals.",
     "rating": 4.5,
     "price": 880,
@@ -550,7 +551,7 @@ const diningData = [
   {
     "id": 20,
     "title": "Classic Elegance",
-    "image": south_extension,
+    "image": southExtension,
     "description": "Timeless décor with classic furniture and soft lighting.",
     "rating": 4.8,
     "price": 1450,
@@ -577,7 +578,7 @@ const diningData = [
   {
     "id": 21,
     "title": "Glasshouse Cafe",
-    "image": salt_lake,
+    "image": saltLake,
     "description": "Bright glass‑enclosed seating offering soothing outdoor views.",
     "rating": 4.1,
     "price": 780,
@@ -619,7 +620,7 @@ const diningData = [
   {
     "id": 23,
     "title": "Rustic Terrace",
-    "image": sector_14,
+    "image": sector14,
     "description": "Rustic elements along with terrace seating overlooking greenery.",
     "rating": 4.3,
     "price": 800,
@@ -640,7 +641,7 @@ const diningData = [
   {
     "id": 24,
     "title": "Red Wall Lounge",
-    "image": red_wall_lounge,
+    "image": redWallLounge,
     "description": "Bold red décor with comfortable lounge seating for relaxing meals.",
     "rating": 4.6,
     "price": 950,
@@ -661,7 +662,7 @@ const diningData = [
   {
     "id": 25,
     "title": "Terrace Atrium",
-    "image": andheri_west,
+    "image": andheriWest,
     "description": "Atrium style with partially open roof for an alfresco feel.",
     "rating": 4.4,
     "price": 830,
@@ -682,7 +683,7 @@ const diningData = [
   {
     "id": 26,
     "title": "Luxe Corridor",
-    "image": banjara_hills,
+    "image": banjaraHills,
     "description": "Luxury lounge with elegant corridor-style seating setup.",
     "rating": 4.7,
     "price": 1350,
@@ -703,7 +704,7 @@ const diningData = [
   {
     "id": 27,
     "title": "Checkered Cafe",
-    "image": checkerd_cafe,
+    "image":checkeredCafe,
     "description": "Playful checkered flooring with bright seating and casual vibes.",
     "rating": 4.2,
     "price": 640,
@@ -724,7 +725,7 @@ const diningData = [
   {
     "id": 28,
     "title": "Orange & Green",
-    "image": chandni_chowk,
+    "image": chandniChowk,
     "description": "Fresh color palette with orange tables and green walls adorned.",
     "rating": 4.5,
     "price": 870,
@@ -745,7 +746,7 @@ const diningData = [
   {
     "id": 29,
     "title": "Wooden Terrace",
-    "image": anna_nagar,
+    "image": annaNagar,
     "description": "All-wood décor with terrace seating offering natural charm.",
     "rating": 4.3,
     "price": 720,
@@ -766,7 +767,7 @@ const diningData = [
   {
     "id": 30,
     "title": "Classic Wooden",
-    "image": classic_wood,
+    "image": classicWood,
     "description": "Elegant wooden furniture paired with classic décor elements.",
     "rating": 4.8,
     "price": 1420,
@@ -787,7 +788,7 @@ const diningData = [
   {
     "id": 31,
     "title": "Garden Atrium",
-    "image": garden_autrium,
+    "image": gardenAtrium,
     "description": "Garden-style atrium to give an outdoor dining feel indoors.",
     "rating": 4.0,
     "price": 800,
@@ -808,7 +809,7 @@ const diningData = [
   {
     "id": 32,
     "title": "Lofty Retreat",
-    "image": lofty_retreat,
+    "image":loftyRetreat,
     "description": "High rise style with loft seating and ambient lighting.",
     "rating": 4.5,
     "price": 920,
@@ -830,7 +831,7 @@ const diningData = [
   {
     "id": 33,
     "title": "Rustic Glow",
-    "image": rustic_glow_lounge,
+    "image": rusticGlowLounge,
     "description": "Warm rustic glow with communal seating and soft lighting.",
     "rating": 4.3,
     "price": 800,
@@ -852,7 +853,7 @@ const diningData = [
   {
     "id": 34,
     "title": "Red Retro",
-    "image": red_retro_lounge,
+    "image": redRetroLounge,
     "description": "Retro red walls give this place a bold character.",
     "rating": 4.6,
     "price": 980,
@@ -873,7 +874,7 @@ const diningData = [
   {
     "id": 35,
     "title": "Terrace Lounge",
-    "image": terrace_lounge,
+    "image": terraceLounge,
     "description": "Terrace-style lounge with comfortable seating and skyline views.",
     "rating": 4.4,
     "price": 860,

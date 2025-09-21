@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import bgImage from '../images/background_image.jpg';
+import bgImage from '../images/background-image.jpg';
 import { useNavigate } from 'react-router'; 
 import SignUp from '../modal/SignUp';
 
