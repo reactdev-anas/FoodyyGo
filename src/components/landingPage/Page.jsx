@@ -53,10 +53,10 @@ const Page = () => {
         <nav className="flex flex-wrap sm:flex-nowrap justify-between items-center p-4 sm:p-7 mx-4 sm:mx-6">
           <h2 className="text-white text-2xl sm:text-3xl font-[cursive] mb-2 sm:mb-0">.FoodyGo</h2>
           <button
-            className="bg-black py-1.5 sm:py-2 px-4 sm:px-5 text-sm sm:text-base text-white rounded font-[cursive]"
+            className="bg-black py-1.5 cursor-pointer sm:py-2 px-4 sm:px-5 text-sm sm:text-base text-white rounded font-[cursive]"
             onClick={() => setShowModal(true)}
           >
-            Sign In
+            Sign Up
           </button>
           {showModal && <SignUp setShowModal={setShowModal} />}
         </nav>
